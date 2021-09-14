@@ -1,0 +1,48 @@
+$primary: #222831;
+$secondary: #393e46;
+$success: #00adb5;
+$info: #eeeeee;
+
+// $width: 100%;
+// $height: 600px;
+
+// .container-fluid {
+// 	width: ($width - 2%) / 2 ;
+// 	height: $height / 2 ;
+// }
+
+// $icon:ora;
+
+// .icon {
+// 	width: 50px;
+// 	height: 50px;
+// 	background-size:cover;
+// 	background-position:center;
+// 	@if $icon==ora{background-image:url(../imagenes/orange.jpeg);}
+// 	@else if $icon==appl{background-image:url(../imagenes/apple.jpeg) ;}
+// }
+
+// .btn {
+// 	width: 100px;
+// 	height: 30px;
+// 	background-color:$info;
+// 	border:none;
+// 	color:orange;
+// 	&:hover{
+// 		color:white;
+// 		cursor: pointer;
+// 	}
+// }
+
+// .btn-rounded {
+// 	@extend .btn;
+// 	border-radius:14px;
+// }
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "_commons";
+@import "_fonts";
+@import "_header";
+@import "_nav";
+@import "_cointainer";
+@import "_footer";

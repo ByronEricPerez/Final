@@ -1,0 +1,21 @@
+{
+  "name": "arroba",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss sass/custom.scss css/custom.css",
+    "watch-css": "nodemon -e scss -x \"npm     run build-css\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta3",
+    "node-sass": "^6.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "description": ""
+}

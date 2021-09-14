@@ -1,0 +1,19 @@
+nav {
+	padding:3em;
+
+
+	ul {
+		text-align: center;
+	}
+
+	li {
+		color: orange;
+	}
+
+	a {
+		text-decoration: none;
+		font-family: $font-family-sans-serif;
+		font-size: $fontSizeBig;
+	}
+}
+
